@@ -1,14 +1,83 @@
 <ion-header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Dining
     </ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header> 
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class = "main">
+
+  <div class = "header">
+    <h1 text-uppercase>dining</h1>
+  </div>
+
+  <!-- scroll menu with dates -->
+
+  <div class="scrollmenu">
+      <a href="#home">1</a>
+      <a href="#news">2</a>
+      <a href="#contact">3</a>
+      <a href="#about">4</a>
+      <a href="#support">5</a>
+      <a href="#blog">6</a>
+      <a href="#tools">7</a>  
+      <a href="#base">8</a>
+      <a href="#custom">9</a>
+      <a href="#more">10</a>
+      <a href="#logo">11</a>
+      <a href="#friends">12</a>
+      <a href="#partners">13</a>
+      <a href="#people">14</a>
+      <a href="#work">15</a>
+    </div>
+
+    <br>
+
+  <div class = "content">
+
+    <h2>On Campus</h2>
+
+    <!-- box with dining area information -->
+
+    
+      <div class = "nameAndTime">
+        <h3>Dining Hall 1</h3>
+        <p>OPEN 8AM - 8PM</p>
+        <button type = "button"><ion-icon name = "arrow-forward"></ion-icon></button>
+      </div>
+    
+
+    <div class = "box1">
+      <div class = "nameAndTime">
+        <h3>Dining Hall 2</h3>
+        <p>OPEN 8AM - 8PM</p>
+      </div>
+
+      <div class = "forwardButton">
+        <button type = "button"><ion-icon name = "arrow-forward"></ion-icon></button>
+      </div>
+    </div>
+
+    <div class = "box1">
+      <div class = "nameAndTime">
+        <h3>Dining Hall 3</h3>
+        <p>OPEN 8AM - 8PM</p>
+      </div>
+
+      <div class = "forwardButton">
+        <button type = "button"><ion-icon name = "arrow-forward"></ion-icon></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- universal nav bar -->
+  
+  <ul class = "buttons">
+      <li><button type = "button" class = "leftButton"><ion-icon name = "home"></ion-icon><br> Home</button></li>
+      <li><button type = "button" class = "midButton"><ion-icon name = "calendar"></ion-icon><br> Events</button></li>
+      <li><button type = "button" class = "midButton2"><ion-icon name = "nutrition"></ion-icon><br> Dining</button>
+      <button type = "button" class = "rightButton"><ion-icon name = "person"></ion-icon><br> Profile</button></li>
+  </ul>
 </ion-content>
